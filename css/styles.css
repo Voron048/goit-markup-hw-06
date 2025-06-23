@@ -89,6 +89,7 @@ margin-bottom: 48px;
 max-width: 496px;
 margin: 0 auto;
 align-items: center;
+
 }
 .hero-text { 
 padding: 188px 472px 188px 472px;
@@ -120,6 +121,9 @@ border-radius: 4px
     padding-top: 120px;
     padding-bottom: 120px;
     
+}
+.features-title{
+visibility: hidden;
 }
 
 .features-list {
