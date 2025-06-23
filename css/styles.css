@@ -165,6 +165,8 @@ letter-spacing: 0.03em;
 vertical-align: middle;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-bottom: 16px;
+display: inline-block;
 
 }
 .footer-logo-accent {
@@ -176,13 +178,15 @@ letter-spacing: 0.03em;
 vertical-align: middle;
 text-transform: uppercase;
 color: #F4F4FD;
-
+display: inline-block;
 }
 .footer-text {
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264px;
+margin: 0 auto;
 }
 h1, h2, h3, p {
     margin-top: 0;
