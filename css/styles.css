@@ -119,7 +119,7 @@ border-radius: 4px
     padding-bottom: 120px;
     
 }
-.features-title{
+.visually-hiden {
 visibility: hidden;
 }
 
@@ -130,9 +130,6 @@ padding-right: 156px;;
 gap: 24px;
 
 }
-.feauters-item {
-width: calc((100% - 3 * 24px) / 4);
-}
 .features-subtitle {
 font-weight: 500;
 font-size: 20px;
@@ -142,7 +139,8 @@ color: #2e2f42;
 margin-bottom: 8px;
  }
  .features-item {
-    width: 264px;
+  width: 264px;
+  width: calc((100% - 3 * 24px) / 4);  
  }
 .features-item-text {
 font-size: 16px;
