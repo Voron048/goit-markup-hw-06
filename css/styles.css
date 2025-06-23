@@ -173,7 +173,7 @@ background-color: #FFFFFF;
 border-bottom-right-radius: 4px;
 border-bottom-left-radius: 4px;
 }
-.portfolio-title, .team-title {
+.portfolio-title {
 color: #2E2F42;
 text-align: center;
 text-transform: capitalize;
@@ -202,6 +202,8 @@ list-style-type: none;
 max-width: 162px;
 margin: 0 auto;
 margin-bottom: 72px;
+
+
 }
 .team-subtitle {
 font-weight: 500;
