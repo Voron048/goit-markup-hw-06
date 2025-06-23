@@ -202,6 +202,7 @@ list-style-type: none;
 .team-title { 
 color: #2E2F42;
 text-align: center;
+margin: 0 auto;
 text-transform: capitalize;
 font-weight: 700;
 font-size: 36px;
