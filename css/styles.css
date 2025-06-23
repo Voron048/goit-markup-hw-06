@@ -12,6 +12,7 @@ body {
 .header-nav {
  display: flex; 
  align-items: center;
+ 
 }
 .header-logo {
 vertical-align: middle;
@@ -29,6 +30,7 @@ color: #2E2F42;
 }
 .header-menu {
    display: flex; 
+   gap: 40px;
 }
 .header-menu-link { 
 font-weight: 500;
@@ -45,9 +47,11 @@ color: #2e2f42;
 font-style: normal;
 margin-left: auto;
 align-items: center;
+
 }
 .header-address-list {
 display: flex;
+gap: 40px;
 } 
 .header-address-link {
 color: #434455;
