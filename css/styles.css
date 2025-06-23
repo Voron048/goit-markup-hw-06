@@ -80,13 +80,20 @@ letter-spacing: 0.02em;
 margin-bottom: 48px;
 max-width: 496px;
 margin: 0 auto;
+align-items: center;
 }
 .hero-text { 
 padding: 188px 472px 188px 472px;
 }
+.btn {
+border-radius: 4px;
+padding: 16px 32px;
+}
 .hero-btn {
 font-weight: 500;
 font-size: 16px;
+height: 56px;
+min-width: 169px;
 color: #fff;
 background-color: #4D5AE5;
 cursor: pointer;
@@ -94,7 +101,8 @@ letter-spacing: 0.04em;
 line-height: 150%;                                                                                         
 display: block;
 margin: 0 auto;
-border-radius: 4px;
+border: none;
+
  }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
