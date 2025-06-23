@@ -85,13 +85,14 @@ text-align: center;
 color: #FFFFFF;
 line-height: 107%;
 letter-spacing: 0.02em;
-}
-.hero-text { 
-padding: 188px 472px 188px 472px;
+
 margin-bottom: 48px;
-max-width: 496px;
 margin: 0 auto;
 align-items: center;
+}
+.hero-text {
+padding: 188px 472px 188px 472px;
+max-width: 496px;
 }
 .btn {
 /*border-radius: 4px;*/
