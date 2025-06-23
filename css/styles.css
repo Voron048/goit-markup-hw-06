@@ -112,6 +112,12 @@ border: none;
     padding-bottom: 120px;
     
 }
+.features-list {
+display: flex;
+padding-left: 156px;
+padding-right: 156px;;
+gap: 24px;
+}
 .features-subtitle {
 font-weight: 500;
 font-size: 20px;
@@ -119,6 +125,9 @@ line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+ }
+ .features-item {
+    width: 264px;
  }
 .features-item-text {
 font-size: 16px;
@@ -152,13 +161,19 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: center;
 }
-.team-list, .features-list, .portfolio-list {
+ul {
+    list-style-type: none;
+}
+.team-list  /*.portfolio-list*/ {
 list-style-type: none;
     display: flex;
+    gap: 24px;
+    
 }
 .portfolio-list {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 48px 24px;
 }
 .team-title { 
 max-width: 162px;
@@ -231,6 +246,9 @@ h1, h2, h3, p {
 }
 a {
     text-decoration: none;
+}
+img {
+    display: block;
 }
 /*ul {
 margin-top: 0;
