@@ -193,6 +193,7 @@ text-align: center;
 }
 ul {
     list-style-type: none;
+    gap: 24px;
 }
 .team-list  /*.portfolio-list*/ {
 list-style-type: none;
