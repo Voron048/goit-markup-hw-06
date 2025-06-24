@@ -193,12 +193,12 @@ text-align: center;
 }
 ul {
     list-style-type: none;
-    gap: 24px;
+    
 }
 .team-list  /*.portfolio-list*/ {
-list-style-type: none;
     display: flex;
-    gap: 24px;}
+    gap: 24px;
+justify-content: center;}
 
 .team-title { 
 color: #2E2F42;
