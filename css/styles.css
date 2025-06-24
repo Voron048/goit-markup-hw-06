@@ -134,8 +134,6 @@ border-radius: 4px
 
 .features-list {
 display: flex;
-padding-left: 156px;
-padding-right: 156px;;
 gap: 24px;
 
 }
@@ -195,7 +193,7 @@ ul {
     list-style-type: none;
     
 }
-.team-list  /*.portfolio-list*/ {
+  .team-list/*.portfolio-list*/ {
     display: flex;
     gap: 24px;
 justify-content: center;}
