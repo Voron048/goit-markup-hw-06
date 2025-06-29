@@ -304,6 +304,14 @@ a {
 img {
     display: block;
 }
+.strategy, .punkt, .dil, .tec {
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+padding: 100px 24px;  
+background: #f4f4fd;
+}
 /*ul {
 margin-top: 0;
 margin-bottom: 0;
