@@ -322,30 +322,27 @@ background: #f4f4fd;
 margin-bottom: 8px;
 display: flex;
 align-items: center;
+justify-content: center; 
 }
-.team-icon {
+ .team-social-link {
+    width: 40px;
+    height: 40px;
     fill: #4d5ae5;
     border-radius: 50%;
     gap: 24px;
+   display: inline-block; 
+   display: flex;
+   align-items: center;
+justify-content: center;
+
 }
-.social-icon {
+.team-social-list {
 width: 232px;
 height: 40px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-/*ul {
-margin-top: 0;
-margin-bottom: 0;
-list-style-type: none;
-padding-left: 0;
-  
-}*/
 
-/*.team-img {
-    display: block;
-}*/
+
+}
+/*.team-social-item*/
 .container {
     width: 1158px;
     margin: 0 auto;
