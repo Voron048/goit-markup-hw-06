@@ -168,6 +168,10 @@ padding: 120px 0;
      padding: 32px 0 ;
       text-align: center;    
        text-align: center;
+width: 232px;
+height: 104px;
+display: block;
+gap: 8px;
 }
 
 .team-item {
@@ -309,8 +313,19 @@ border: 1px solid #8e8f99;
 border-radius: 4px;
 width: 264px;
 height: 112px;
-padding: 100px 24px;  
+padding: 24px 100px;  
 background: #f4f4fd;
+margin-bottom: 8px;
+display: flex;
+align-items: center;
+}
+.team-icon {
+    fill: #4d5ae5;
+    border-radius: 50%;
+    gap: 24px;
+}
+.social-icon {
+    
 }
 /*ul {
 margin-top: 0;
@@ -329,4 +344,5 @@ padding-left: 0;
     padding: 0 15px;
     
 }
+
 
