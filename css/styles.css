@@ -414,7 +414,11 @@ justify-content: center;
 .footer-container {
  display: flex; 
     align-items: baseline;
-     margin-right: 120px;
+     
+    
+}
+.footer-logo-container {
+margin-right: 120px;
 }
 
 .social-text {
