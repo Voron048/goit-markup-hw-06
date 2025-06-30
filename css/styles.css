@@ -46,10 +46,21 @@ color: #2e2f42;
 padding-top: 24px; 
 padding-bottom: 24px;
 position: relative;
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover, .header-menu-link:focus {
    color: #404bbf;
 }
+ .header-menu-link ::after {
+    content: "";
+    width: 100%;
+     position: absolute;
+     left: 0;
+     bottom: -1px;
+     height: 4px;
+     background-color: #404bbf;
+     border-radius: 2px;
+    }
 
 .header-address {
 font-style: normal;
@@ -69,6 +80,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover, .header-address-link:focus {
 color: #404bbf;
