@@ -322,28 +322,16 @@
 <p class="modal-title">Leave your contacts and we will call you back</p>
 <form class="modal-form">
     <div class="modal-field">
-    <label for="name" class="modal-input-text">Name</label>
+    <label for="user-name" class="modal-input-text">Name</label>
     <div class="modal-input-cover">
-<input type="text" class="modal-input" name="name" />
+<input type="text" class="modal-input" id="user-name" name="user-name"  />
 <svg class="modal-input-icon" 
      width="18" 
-     height="18"> 
+     height="24"> 
         <use href="./images/symbol-defs.svg#icon-person"></use>
     </svg>
     </div>
      </div>
-    <div class="modal-field">
- <label for="surname" class="modal-input-text">Name</label>
- <div class="modal-input-cover">
-<input type="text" class="modal-input" name="surname" />
-<svg class="modal-input-icon"
-     width="18" 
-     height="18"> 
-        <use href="./images/symbol-defs.svg#icon-person"></use> 
-
-</svg>
-    </div>
-    </div>
     <div class="modal-field">
     <label for="phone" class="modal-input-text">Phone</label>
     <div class="modal-input-cover">
@@ -367,8 +355,8 @@
     </div>
     </div>
     <div class="modal-field">
-    <label for="message" class="modal-input-text">Comment</label>
-<textarea class="modal-textarea" name="message" placeholder="Input text"></textarea>
+    <label for="user-comment" class="modal-input-text">Comment</label>
+<textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Input text"></textarea>
     </div>
 <button type="submit" class="modal-btn">Send</button>   
 
