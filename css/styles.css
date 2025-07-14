@@ -614,9 +614,14 @@ margin-bottom: 8px;
 .modal-checkbox {
 margin-bottom: 24px
 }
-.modal-checkbox-input{
-    visibility: hidden;
+.modal-checkbox:checked + .check-text {
+    background-color: #404bbf;
+    border: none;
+     fill: #F4F4FD;
 }
+/*.modal-checkbox{
+    visibility: hidden;
+}*/
 
 .modal-checkbox-label{
     font-size: 12px; 
@@ -642,6 +647,7 @@ margin-bottom: 24px
 .policy-check-icon {
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
+
     /*width: 16px;
     height: 16px;
     fill: transparent;
@@ -654,4 +660,19 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 display: flex;
 align-items: center;
+}
+.check-element {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+
+margin-right: 8px;
+}
+.check-link {
+    line-height: 133%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
+letter-spacing: 0.04em;
 }
