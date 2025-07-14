@@ -614,7 +614,7 @@ margin-bottom: 8px;
 .modal-checkbox {
 margin-bottom: 24px
 }
-.modal-checkbox:checked + .check-text .check-element {
+.modal-check:checked + .check-text .check-element {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -677,6 +677,7 @@ align-items: center;
  align-items: center; 
   justify-content: center;
   fill: transparent;
+  display: inline-flex; 
 }
 .check-link {
     line-height: 133%;
