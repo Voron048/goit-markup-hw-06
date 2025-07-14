@@ -614,7 +614,7 @@ margin-bottom: 8px;
 .modal-checkbox {
 margin-bottom: 24px
 }
-.modal-checkbox:checked + .check-text {
+.modal-checkbox:checked + .check-text .check-element {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -622,14 +622,6 @@ margin-bottom: 24px
 /*.modal-checkbox{
     visibility: hidden;
 }*/
-
-.modal-checkbox-label{
-    font-size: 12px; 
-     line-height: 1.17;
-      letter-spacing: 0.04em;
-      color: #8e8f99; 
-
-}
 .policy {
     width: 16px;
      height: 16px; 
@@ -654,6 +646,17 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 .check-text {
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+
+    display: flex;  
+    align-items: center;
+    margin-left: 8px;
+
+}
+/*.check-text {
     width: 16px;
     height: 16px;
  border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -664,26 +667,44 @@ display: inline-flex;
   justify-content: center;
   fill: transparent;
 
-
-font-size: 12px;
+}
+/*font-size: 12px;
 line-height: 117%;
 letter-spacing: 0.04em;
 color: #8e8f99;
 display: flex;  
 align-items: center;
-}
-.check-element {
-    width: 16px;
-    height: 16px;
-    border-radius: 2px;
-border: 1px solid rgba(46, 47, 66, 0.4);
+}*/
 
-margin-right: 8px;
+.check-element {
+   margin-right: 8px;
+ width: 16px;
+    height: 16px;
+ border: 1px solid rgba(46, 47, 66, 0.4); 
+ border-radius: 2px; 
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: flex;
+ align-items: center; 
+  justify-content: center;
+  fill: transparent;
 }
 .check-link {
     line-height: 133%;
 text-decoration: underline;
 text-decoration-skip-ink: none;
 color: #4d5ae5;
-letter-spacing: 0.04em;
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
