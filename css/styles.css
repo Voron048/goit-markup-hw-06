@@ -441,15 +441,11 @@ align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-   
 }
 
 .footer-container {
  display: flex; 
-    align-items: baseline;
-   
-     
-    
+    align-items: baseline;   
 }
 .footeres-logo-container {
 margin-right: 120px;
@@ -749,4 +745,19 @@ color: #FFFFFF;
 .modal-footer {
     margin-left: 80px;
 }
- 
+ @media screen and (min-width: 320px) {
+    .container {
+    margin: 0 auto;
+    width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.features-list {
+flex-wrap: wrap;
+gap: 72px;
+
+}
+.portfolio-list{
+flex-wrap: wrap;
+}
+ }
