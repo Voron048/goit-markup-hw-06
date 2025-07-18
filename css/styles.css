@@ -759,9 +759,15 @@ gap: 72px;
 }
 .team-list {
 flex-wrap: wrap;
-justify-content: center;
+padding-left: 28px;
+padding-right: 28px;
+
 }
 .portfolio-list{
-flex-wrap: wrap;
+display: block;
 }
+.portfolio-item {
+
+min-width: 288px;
  }
+}
