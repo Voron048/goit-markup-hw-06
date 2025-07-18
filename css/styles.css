@@ -745,6 +745,7 @@ color: #FFFFFF;
 .modal-footer {
     margin-left: 80px;
 }
+
  @media screen and (min-width: 320px) {
     .container {
     margin: 0 auto;
@@ -756,18 +757,74 @@ color: #FFFFFF;
 flex-wrap: wrap;
 gap: 72px;
 
+
 }
+.features-container{
+    display: none;
+}
+
 .team-list {
 flex-wrap: wrap;
 padding-left: 28px;
 padding-right: 28px;
+}
+.features-item {
+    width: 288px;
+    margin: 0, auto;
+    padding: 0;
 
 }
 .portfolio-list{
 display: block;
+padding: 0;
+
 }
 .portfolio-item {
+min-width:288px;
 
-min-width: 288px;
- }
 }
+.portfolio-item img {
+width: 288px; 
+height: 280px
+}
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.features-container{
+    display: none;
+}
+.features-list {
+flex-wrap: wrap;
+gap: 72px;
+
+
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+  
+}
+ }
+
+
+
+ @media screen and (min-width: 1158px) {
+ .container {
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.features-item {
+    width: calc((100% - 24px) / 2);
+}
+
+ }
