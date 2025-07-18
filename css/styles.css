@@ -757,6 +757,10 @@ flex-wrap: wrap;
 gap: 72px;
 
 }
+.team-list {
+flex-wrap: wrap;
+justify-content: center;
+}
 .portfolio-list{
 flex-wrap: wrap;
 }
