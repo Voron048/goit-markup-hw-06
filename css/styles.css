@@ -766,6 +766,10 @@ padding: 0;
 
 }
 .features-item {
+    width: 100%;
+}   
+.features-item-text{
+font-weight: 500;
 }
  .features-subtitle {
 font-weight: 700;
@@ -774,26 +778,23 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 }
-
-}
 .team-list {
 flex-wrap: wrap;
 padding-left: 28px;
 padding-right: 28px;
+gap: 72px;
 }
 .features-item {
     min-width: 288px;
     margin: 0, auto;
     padding: 0;
-
 }
 .portfolio-list{
-display: block;
 padding: 0;
 
 }
 .portfolio-item {
-min-width:288px;
+max-width:288px;
 
 }
 .portfolio-item img {
