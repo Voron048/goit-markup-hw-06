@@ -114,11 +114,13 @@ color: #404bbf;}
     padding-bottom: 188px;
     max-width: 1440px;
     margin-bottom: 120px;
-    /*background-image: url(../images/hero-bg.jpg);*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)), 
+    url(../images/hero-bg.jpg); 
      background-repeat: no-repeat; 
      background-position: center;
       background-size: cover;
+      margin: 0, auto;
 }
 .hero-title {
 font-weight: 700;
@@ -748,11 +750,21 @@ color: #FFFFFF;
 
  @media screen and (min-width: 320px) {
     .container {
-    /*width: 288px;*/
     max-width: 320px;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
+}
+.hero-title {
+max-width: 216px;
+padding: 72px 52px;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.hero-btn {
+padding: 16px 32px;
 }
 .features-container{
     display: none;
@@ -770,16 +782,17 @@ padding: 0;
 .features-item {
    width: 100%; 
 } 
-.features-item-text{
-font-weight: 500;
 
-}
  .features-subtitle {
 font-weight: 700;
 font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
+}
+.features-item-text{
+font-weight: 500;
+
 }
 .team-list {
 flex-wrap: wrap;
@@ -814,6 +827,14 @@ height: 280px
     max-width: 768px;
     padding-left: 16px;
     padding-right: 16px;
+}
+.hero-title {
+max-width: 496px;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+padding: 112px 136px 204px 136px ;
 }
 .features, .portfolio, .team {
     padding-top: 96px;
