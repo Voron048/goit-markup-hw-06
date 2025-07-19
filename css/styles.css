@@ -839,7 +839,6 @@ height: 280px
 }
 .footer {
 padding: 96px 16px;
-margin-bottom:auto ;
 }
 /*.footer-logo {
     display: block;
@@ -847,7 +846,7 @@ margin-bottom:auto ;
     text-align: center;*/
 
 .footer-text {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -864,8 +863,7 @@ margin-bottom:auto ;
     row-gap: 16px;
     margin-bottom: 72px;
     margin: 0 auto;
-    padding-left: auto;
-    padding-right: auto;
+    width: 100%;
 }
 .social {
     flex-direction: column;
