@@ -755,8 +755,17 @@ color: #FFFFFF;
     padding-left: 16px;
     padding-right: 16px;
 }
+.header-address {
+    display: none;
+}   
+.header-menu {
+   display: none; 
+}
+.header-logo {
+    padding-left: 16px 149px 16px 16px;
+}
 .hero-title {
-max-width: 216px;
+max-width: 216px;  
 padding: 72px 52px;
 font-size: 36px;
 line-height: 111%;
