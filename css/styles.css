@@ -753,23 +753,36 @@ color: #FFFFFF;
     padding-left: 16px;
     padding-right: 16px;
 }
-.features-list {
-flex-wrap: wrap;
-gap: 72px;
-
-
-}
 .features-container{
     display: none;
 }
+.features, .portfolio, .team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.features-list {
+gap: 72px;
+padding: 0;
 
+}
+.features-item {
+}
+ .features-subtitle {
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+}
 .team-list {
 flex-wrap: wrap;
 padding-left: 28px;
 padding-right: 28px;
 }
 .features-item {
-    width: 288px;
+    min-width: 288px;
     margin: 0, auto;
     padding: 0;
 
@@ -807,6 +820,7 @@ flex-wrap: wrap;
 gap: 72px;
 
 
+
 }
 
 .features-item {
@@ -820,8 +834,8 @@ gap: 72px;
  @media screen and (min-width: 1158px) {
  .container {
     max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .features-item {
     width: calc((100% - 24px) / 2);
