@@ -765,9 +765,8 @@ color: #FFFFFF;
     padding-right: 16px;
     }
     .heroicon {
-        stroke: #2F2F37;
-        color: transparent;
-        border: none
+        border: none;
+        background-color: transparent;
         
     }
 .modal {
