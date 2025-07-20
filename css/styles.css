@@ -1009,9 +1009,7 @@ justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
 }
-.modal-footer {
-    margin-left: 80px;
-}
+
 .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)), 
@@ -1024,6 +1022,18 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     url(../images/desck2x.jpg); 
     }
 }
+.hero-title {
+    font-weight: 700;
+font-size: 56px;
+text-align: center;
+color: #FFFFFF;
+line-height: 107%;
+letter-spacing: 0.02em;
+margin: 0 auto;
+align-items: center;
+max-width: 496px;
+}
+
 .features, .portfolio, .team {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1057,15 +1067,11 @@ gap: 24px;
     padding-right: 0;
     gap: 24px;
 }
+
 .features-subtitle{
-text-align: center;
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #2e2f42;
-    
+text-align: left;
 }
+    
 .features-item-text {
     text-align: left;
 font-size: 16px;
@@ -1083,7 +1089,21 @@ padding-right: 0;
     width: calc((100% - 48px) / 3);
 
  }
-
+ .footer{
+     gap: unset;
+    flex-wrap: nowrap;
+ }
+ .footer-container{
+    margin-right: 120px;
+   
+ }
+.modal-footer {
+    display: flex;
+    gap: 24px;
+}
+.social {
+    margin-right: 80px;
+}
 }
 
 
