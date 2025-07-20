@@ -763,6 +763,15 @@ color: #FFFFFF;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
+    }
+    .heroicon {
+        stroke: #2F2F37;
+        color: transparent;
+        border: none
+        
+    }
+.modal {
+    width: 288px;
 }
 .header-address {
     display: none;
