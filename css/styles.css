@@ -931,7 +931,7 @@ padding: 96px 16px;
    display: flex; 
 }
 .header-adress {
-    display: flex;
+    display: block;
 }
 @media screen and (min-resolution: 2x) {
     .hero{
@@ -946,7 +946,6 @@ font-size: 56px;
 line-height: 107%;
 letter-spacing: 0.02em;
 text-align: center;
-/*padding: 112px 136px 204px 136px */;
 margin: 0 auto;
 }
 .features, .portfolio, .team {
@@ -984,7 +983,6 @@ text-align: left;
     width: calc((100% - 24px) / 2); 
  }
 
-}
 .footer-container{
     flex-direction: row;
     flex-wrap: wrap;
@@ -998,7 +996,7 @@ justify-content: center;
     display: flex;
     gap: 24px;
 }
-
+}
 
 
 
