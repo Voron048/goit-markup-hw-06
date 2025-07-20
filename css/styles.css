@@ -851,10 +851,7 @@ row-gap: 52px;
 width: 100%;
 
 }
-.portfolio-item img {
-width: 288px; 
-height: 280px
-}
+
 .footer {
 padding: 96px 16px;
 }
@@ -1039,10 +1036,7 @@ padding-right: 0;
     width: calc((100% - 48px) / 3);
 
  }
- .portfolio-item img {
-width: 360px; 
-height: 300px
-}
+
 }
 
 
