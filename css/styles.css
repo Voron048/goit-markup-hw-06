@@ -10,8 +10,8 @@ body {
 }
 .header .container {
     display: flex;
+    justify-content: space-between;
     
-   
 }
 .header-nav {
  display: flex; 
@@ -202,7 +202,7 @@ margin-bottom: 8px;
  }
  .features-item {
   /*width: 264px;*/
-   flex-basis: calc((100% - 3 * 24px) / 4) ;
+   /*flex-basis: calc((100% - 3 * 24px) / 4) ;*/
  }
 .features-item-text {
 font-size: 16px;
@@ -788,7 +788,7 @@ color: #FFFFFF;
     border: none;
     background-color: transparent;
     padding: 0;
-    margin-left: auto;
+     
     
 }
 .hero {
@@ -811,6 +811,7 @@ font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 72px;
 }
 .hero-btn {
 padding: 16px 32px;
@@ -1065,6 +1066,7 @@ gap: 24px;
 .features-item {
   
    flex-basis: calc((100% - 3 * 24px) / 4) ;
+   
  }
 .team-list {
     flex-wrap: nowrap;
